@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 12rem;
+    font-size: 2.2rem;
+    background: #001625;
+    color: #fff;
+
+}
+
+.header .nav .nv-link{
+    margin-left: 2rem;
+    color: #fff;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background: #001625;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12rem;
+    overflow: hidden;
+    color: #fff;
+}
+
+.box-context{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.information{
+    width: 55%;
+}
+
+.profile{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.skill{
+    color: #14a1e8;
+}
+
+.title, .job{
+    font-size: 3rem;
+}
+
+.description{
+    margin: 2rem 0;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.header .nav .active{
+    color: #14a1e8;
+}
